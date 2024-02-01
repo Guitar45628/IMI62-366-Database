@@ -1,0 +1,9 @@
+## LAB 4
+1. ต้องการทราบข้อมูลแพทย์ (physician) ทั้งหมด
+
+`SELECT * FROM Physician;`
+
+2. ต้องการทราบ รหัส และ ชื่อ ของแพทย์ที่มี ตำแหน่ง เป็น Surgical Attending Physician
+
+ `SELECT EmployeeID, Name From Physician WHERE Position = "Surgical Attendi ng Physician";`
+
